@@ -1,0 +1,10 @@
+.point{
+    border: gray solid 1px;
+    background-image: url('../assets/background/poligonal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 0.66;
+    width: 100%;
+    min-width: 66%;
+}
