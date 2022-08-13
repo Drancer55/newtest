@@ -1,7 +1,60 @@
 .login{
-    background-image: url('../assets/background/playa.jpg');
-    border: black solid 1px;
+    background-image: url('../assets/background/bckgndlogin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 37px 37px 0px;
+    border: rgba(0, 0, 0, 0) solid 1px;
     height: 100vh;
-    flex: 0.33;
-    width: 100%;
+    margin-left: -2.5vw;
+    width: 33vw;
+    min-width: max-content;
+}
+
+.perfil{
+    background-color: rgba(66, 96, 124, 0.75);
+    margin: 32vh 5vh 20vh 11vh;
+    border-radius: 19px;
+    box-shadow: 8px 1px 13px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 23vw;
+    height: 50vh;
+    color: white;
+}
+
+img{
+    height: 6.8rem;
+    width: 6.8rem;
+}
+
+.settings button{
+    text-decoration-line: underline;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.btn :hover{
+    color: rgba(216, 188, 139, 1);
+    border: none;
+    text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .spinner {
+        animation: spinner infinite 10s linear;
+    }
+}
+
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+        }
+    to {
+        transform: rotate(360deg);
+    }
 }

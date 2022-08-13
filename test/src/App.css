@@ -1,23 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
 
 .container{
+  background-color: #f1f1f1;
+  background-image: url('./assets/background/bckgndword.png');
+  background-repeat: no-repeat;  
+  background-position: right;
+  background-size: 75%;
+  background-attachment: fixed;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
+  border: black 1px solid;
+  min-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
