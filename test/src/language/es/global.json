@@ -1,0 +1,7 @@
+{
+    "app": {
+        "settings": "Ajustes",
+        "welcome": "bienvenido",
+        "logout": "cerrar sesión"
+    }
+}

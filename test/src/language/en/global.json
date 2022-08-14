@@ -1,0 +1,7 @@
+{
+    "app": {
+        "settings": "Settings",
+        "welcome": "welcome",
+        "logout": "sign out"
+    }
+}
