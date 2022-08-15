@@ -1,0 +1,124 @@
+.login{
+    background-image: url('../assets/background/bckgndlogin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 37px 37px 0px;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    height: 100vh;
+    margin-left: -2.5vw;
+    width: 33vw;
+    min-width: max-content;
+}
+
+.perfil{
+    background-color: rgba(66, 96, 124, 0.75);
+    margin: 32vh 7vh 20vh 11vh;
+    border-radius: 19px;
+    box-shadow: 8px 1px 13px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 56vh;
+    color: white;
+}
+
+img{
+    height: 6.8rem;
+    width: 6.8rem;
+    margin-top: -14vh;
+}
+
+.settings button{
+    text-decoration-line: underline;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 0.8rem;
+    margin-top: 1vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.settings button:hover{
+    color: rgba(216, 188, 139, 1);
+    border: none;
+    text-decoration: underline;
+}
+
+.welcome{
+font-style: normal;
+font-weight: 700;
+font-size: 1.1rem;
+line-height: 1.3rem;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+margin-top: 5vh;
+}
+
+.languaje{
+    font-size: 0.7rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4vh;
+}
+
+.languaje button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.languaje button:hover{
+    color: rgba(216, 188, 139, 1);
+}
+
+.loguot{
+    font-size: 0.7rem;
+}
+
+.loguot button{
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    border-radius: 35px;
+    width: 6.3rem;
+    height: 2.5rem;
+    margin-top: 5vh;
+    text-transform: uppercase;
+}
+
+.loguot button:hover{
+    color: rgba(216, 188, 139, 1);
+    border-color: rgba(216, 188, 139, 1);;
+}
+
+.time{
+    margin-top: 4vh;
+    margin-bottom: -4vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .spinner {
+        animation: spinner infinite 10s linear;
+    }
+}
+
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+        }
+    to {
+        transform: rotate(360deg);
+    }
+}

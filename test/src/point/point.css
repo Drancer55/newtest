@@ -1,0 +1,60 @@
+.points{
+    height: 68vh;
+    width: 53vw;
+    max-width: 100%;
+    margin-top: 7vw;
+    margin-right: 6vw;
+}
+
+.logo{
+    font-size: 1em;
+    font-weight: bolder;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.pointcard{
+    margin: auto 10vh;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.cards{
+    border: 1px solid #FFFFFF;
+    box-shadow: 7px 2px 11px rgba(0, 0, 0, 0.25);
+    padding-top: 4vh;
+    margin: 5vh 2vh;
+    min-width: max-content;
+}
+
+.cards :hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.imagen-bkn{
+    position: absolute;
+    border-radius: 100px;
+    background-color: rgba(65, 96, 124, 0.08);
+    width: 14vh;
+    height: 14vh;
+    margin: -4vh 0.8vw;
+}
+
+.cards img {
+    margin-bottom: 5vh;
+    padding: 2vh;
+    width: 14vh;
+    height: 14vh;
+    margin: -4vh auto 0;
+}
+
+.cards p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 2vh;
+}

@@ -1,0 +1,9 @@
+.clock{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+.calendar{
+    margin-top: -1.2rem;
+}
