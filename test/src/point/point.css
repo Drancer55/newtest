@@ -1,7 +1,6 @@
 .points{
     height: 68vh;
     width: 53vw;
-    max-width: 100%;
     margin-top: 7vw;
     margin-right: 6vw;
 }
@@ -15,11 +14,12 @@
 }
 
 .pointcard{
-    margin: auto 10vh;
+    margin: auto;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
     max-width: 90%;
+    min-width: 90%;
 }
 
 .cards{
@@ -28,6 +28,8 @@
     padding-top: 4vh;
     margin: 5vh 2vh;
     min-width: max-content;
+    max-width: 100%;
+    justify-content: center;
 }
 
 .cards :hover{
@@ -41,7 +43,7 @@
     background-color: rgba(65, 96, 124, 0.08);
     width: 14vh;
     height: 14vh;
-    margin: -4vh 0.8vw;
+    margin: -4vh 1vw;
 }
 
 .cards img {
