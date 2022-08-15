@@ -8,7 +8,7 @@ import { I18nextProvider } from 'react-i18next'; import 'react-i18next';
 import i18next from 'i18next';
 import english from './language/en/global.json';
 import español from './language/es/global.json'
-
+// i18next tool for multiple languages
 i18next.init({
   interpolation: { escapeValue: false },
   lng: "en",

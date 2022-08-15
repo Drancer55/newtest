@@ -5,10 +5,11 @@ import Point from './point/Point';
 
 function App() {
   return (
+    // Landing page
     <div className='container'>
-      <aside>
+      <section>
         <Login/>
-      </aside>
+      </section>
       <section>
         <Point/>
       </section>

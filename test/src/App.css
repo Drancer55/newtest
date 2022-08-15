@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
 
+html{
+  background-color: #f1f1f1;
+}
 .container{
   background-color: #f1f1f1;
   background-image: url('./assets/background/bckgndword.png');
   background-repeat: no-repeat;  
   background-position: right;
-  background-size: 75%;
+  background-size: cover;
   background-attachment: fixed;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
-  border: black 1px solid;
   min-width: 100%;
 }
 

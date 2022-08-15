@@ -7,13 +7,18 @@ import point from './points'
 const Point = () => {
 
     return (
-        <div className="point">
-            <h1>LOGO</h1>
-
-            <div className="pointcard"> 
+        <div className="points">
+            <h1 className="logo">LOGO</h1>
+            <div className="pointcard">
                 {point.map((item) => (
-                    // card by Bootstrap
-                    <Card key={item.id} border="light" style={{ width: '23vh', borderRadius: '30px', height: '22vh' }} className="cards">
+                    // Card by Bootstrap
+                    <Card key={item.id} border="light" style={{
+                        width: '23vh',
+                        minWidth: 'max-content',
+                        borderRadius: '30px',
+                        height: '22vh'
+                    }}
+                        className="cards">
                     <Card.Body>
                         <Card.Text>
                             <div className="imagen-bkn"></div>

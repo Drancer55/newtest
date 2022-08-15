@@ -4,7 +4,7 @@ import img3 from '../assets/point/point3.png';
 import img4 from '../assets/point/point4.png';
 import img5 from '../assets/point/point5.png';
 import img6 from '../assets/point/point6.png';
-
+// App points of interest
 const point = [
         {
             id: 1,
